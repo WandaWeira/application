@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="min-h-screen bg-gray-200">
+    <div class="grid grid-cols-4 gap-4 rounded-2xl min-h-screen">
+        <div class="col-span-1 flex-1 p-4 shadow-lg bg-gray-100">
+            <h1 class="text-green-600 font-bold text-xl">Shop</h1>
+            <h3 class="mt-3 text-gray-500">05 July 2021 15:03</h3>
+            <div class="mr-2 ml-2 mt-10 flex-col items-center justify-between">
+                <ul class="text-gray-500">
+                    <li class="list-item">
+                        <i class="fas fa-flag text-gray-500 text-xl mr-3"></i>
+                        <a href="">Report</a>
+                    </li>
+                    <li class="list-item bg-green-500 text-white">
+                        <i class="fas fa-file text-gray-500 text-xl mr-3"></i>
+                        <a href="">Selling</a>
+                      </li>
+                    <li class="list-item">
+                        <i class="fas fa-file text-gray-500 text-xl mr-3"></i>
+                        <a href="">Product</a>
+                    </li>
+                    <li class="list-item">
+                        <i class="fas fa-bar-chart text-gray-500 text-xl mr-3"></i>
+                        <a href="">Cashier</a>
+                    </li>
+                    <li class="list-item">
+                        <i class="fas fa-cogs text-gray-500 text-xl mr-3"></i>
+                        <a href="">Settings</a>
+                    </li>
+                </ul>
+               
+            </div>
+            <button class="border-2 border-green-500 text-green-500 rounded-xl mr-2 ml-2 w-1/2 pt-2 pb-2">Exit & Block</button>
+            
+        </div>
+        <div class="col-span-2 flex-2 p-4 w-full">
+            <div class="relative text-gray-300 w-full flex items-center">
+                <input type="text" class="bg-gray-100 h-10 px-10 pr-16 rounded-xl text-sm focus:outline-none w-full" placeholder="Search">
+                <button type="submit" class="absolute left-0 top-0 mt-3 mr-4 ml-4">
+                    <i class="fas fa-search text-gray-400"></i>
+                </button>
+            </div>
+            <!-- Tabs go below here -->
+            
+            <!-- Tabs end here -->
+
+        </div>
+        <div class="col-span-1 flex-1 p-4">
+          <div class="flex items-center justify-evenly">
+            <i class="fas fa-envelope text-gray-500 text-xl mr-3"></i>
+            <i class=" fas fa-info-circle text-gray-400 text-xl mr-3"></i>
+            <div class="flex items-center">
+                <h3 class="text-gray-400">Kathryn Murphy</h3>
+                <img class="w-14 h-14 rounded-full ml-2" src="https://discoverymood.com/wp-content/uploads/2020/04/Mental-Strong-Women-min.jpg" alt="profile"/>
+            </div>
+          </div>
+          <div class="mt-8 p-4 rounded-xl bg-gray-100 shadow-lg">
+            <h1 class="font-bold text-lg">Joint payment</h1>
+            <div class="flex justify-between items-center my-5">
+                <h3>Subtotal</h3>
+                <h3 class="font-semibold">67.10 UAN</h3>
+            </div>
+            <div class="flex justify-between items-center my-5">
+                <h3>Discounts</h3>
+                <h3 class="font-semibold">0.00</h3>
+            </div>
+            <div class="flex justify-between items-center my-5">
+                <h3>Total</h3>
+                <h3 class="font-semibold text-xl text-green-500">67.10 UAN</h3>
+            </div>
+            <label for="cash" class="my-8 block text-gray-500 text-sm mb-2">Cash</label>
+            <div class="w-full border border-gray-300 rounded-xl py-2 px-3 text-gray-500">
+                30.00
+            </div>
+            <label for="card" class="my-8 block text-sm text-gray-500 mb-2">Card</label>
+            <div class="flex space-x-4 w-full">
+                <div class="py-2 px-3 border border-gray-300 text-gray-500 p-2 w-1/2 rounded-xl">
+                    30.00
+                </div>
+                <div class=" py-2 px-3 border border-green-500 text-green-500 p-2 w-1/2 rounded-xl">
+                    Pay
+                </div>
+            </div>
+            <div class="mt-14 flex space-x-3 items-center">
+                <i class="fa fa-question-circle text-red-500 text-xl mr-5"></i>
+                <p class="text-sm">Print the check only after the sale takes place  at the bank terminal</p>
+            </div>
+            <button class="text-center text-white p-2 rounded-xl bg-green-500 my-8 w-full">Print Check</button>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
